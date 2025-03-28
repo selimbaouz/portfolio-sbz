@@ -97,14 +97,14 @@ const Works = ({ works }: WorksProps) => {
                 });
               }}
               className={cn(
-                "works py-20 block space-y-6",
+                "py-20 block space-y-6",
                 "lg:flex lg:items-center lg:gap-8 lg:py-44",
                 index % 2 === 0
                   ? "lg:flex-row"
                   : "lg:flex-row-reverse",
               )}
             >
-              <div>
+              <div className="works">
                 <Image
                   alt="Picture of project"
                   src={work.image}
