@@ -55,7 +55,7 @@ const HeaderPage = () => {
         <div className={cn("flex gap-2 items-center justify-center")}>
           <div className="size-4 bg-green-400 rounded-full border-[4px] border-green-200 animate-pulse"/>
           <p className={cn("uppercase text-sm lg:text-lg font-[Montserrat]")}>
-          Available for freelance
+          Available for new projects
           </p>
         </div>
         <h1  className={cn(
