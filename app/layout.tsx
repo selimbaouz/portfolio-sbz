@@ -11,19 +11,33 @@ export const metadata: Metadata = {
     default: "Selim Baouz | Multidisciplinary Developer",
     template: "%s | Selim Baouz"
   },
-  description: "Offrez une expérience headless mémorable à vos clients grâce à une boutique en ligne rapide, performante et sur mesure avec Next.js et Shopify.",
-  keywords: ["shopify headless", "shopify", "headless", "boutique headless", "boutique shopify headless", "dropshipping", "boutique dropshipping", "e-commerce", "design sur mesure", "design ux/ui", "designer web", "développeur shopify headless", "développeur shopify", "développeur fullstack", "shopify seo"],
+  description: "Passionate multidisciplinary developer specializing in digital products, SaaS, and headless e-commerce with Next.js and Shopify.",
+  keywords: [
+    "full-stack developer",
+    "e-commerce developer",
+    "shopify headless",
+    "next developer",
+    "react developer",
+    "headless commerce",
+    "SaaS development",
+    "web development",
+    "UX/UI design",
+    "web design",
+    "SEO optimization",
+    "freelance developer",
+    "digital product creation"
+  ],
   authors: [{ name: "Selim Baouz" }],
   creator: "Selim Baouz",
   publisher: "Selim Baouz",
   robots: "index, follow",
   openGraph: {
     type: "website",
-    locale: "fr_FR",
+    locale: "en_US",
     url: "https://selimbaouz.com",
     siteName: "Selim Baouz",
     title: "Selim Baouz | Multidisciplinary Developer",
-    description: "Je crée des boutiques en ligne headless sur mesure, combinant design unique et performance, pour offrir à votre marque une expérience utilisateur fluide et mémorable.",
+    description: "Specialized in SaaS and headless e-commerce development, I help brands create high-performance, tailor-made digital experiences.",
     images: [
       {
         url: "https://selimbaouz.com/images/og-image.webp",
@@ -38,7 +52,7 @@ export const metadata: Metadata = {
     site: "@selimbaouz",
     creator: "@selimbaouz",
     title: "Selim Baouz | Multidisciplinary Developer",
-    description: "Je crée des boutiques en ligne headless sur mesure, combinant design unique et performance, pour offrir à votre marque une expérience utilisateur fluide et mémorable.",
+    description: "Specialized in SaaS and headless e-commerce development, I help brands create high-performance, tailor-made digital experiences.",
     images: ["https://selimbaouz.com/images/og-image.webp"],
   },
   verification: {
