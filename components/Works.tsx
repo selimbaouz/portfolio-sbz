@@ -104,14 +104,14 @@ const Works = ({ works }: WorksProps) => {
                   : "lg:flex-row-reverse",
               )}
             >
-              <div className="works">
+              <div>
                 <Image
                   alt="Picture of project"
                   src={work.image}
                   width={1000}
                   height={750}
                   className={cn(
-                    "rounded-3xl border border-foreground/20 object-cover",
+                    "works rounded-3xl border border-foreground/20 object-cover",
                     "lg:max-w-[650px]",
                     "xl:max-w-[1000px]",
                   )}
