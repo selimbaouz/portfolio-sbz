@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     "web development",
     "UX/UI design",
     "web design",
+    "3D design",
     "SEO optimization",
     "freelance developer",
     "digital product creation"
@@ -62,6 +63,7 @@ export const metadata: Metadata = {
     canonical: "https://selimbaouz.com",
   },
 };
+
 
 export default function RootLayout({
   children,
