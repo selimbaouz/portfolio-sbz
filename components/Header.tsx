@@ -52,12 +52,6 @@ const HeaderPage = () => {
     <header ref={ref} id="home" className={cn("overflow-hidden size-full h-[90dvh] lg:h-[100dvh] flex relative flex-col justify-center", "md:gap-10", "xl:justify-center")}>
       <Spotlight />
       <div className={cn("px-6 text-center space-y-6", "md:mx-auto md:max-w-xl", "lg:max-w-4xl", "xl:px-10 xl:max-w-full")}>
-        <div className={cn("flex gap-2 items-center justify-center")}>
-          <div className="size-4 bg-green-400 rounded-full border-[4px] border-green-200 animate-pulse"/>
-          <p className={cn("uppercase text-sm lg:text-lg font-[Montserrat]")}>
-          Available for new projects
-          </p>
-        </div>
         <h1  className={cn(
           "text-[50px] px-2 font-bold leading-12 bigTitle",
           "md:text-8xl md:px-0 md:leading-20",
