@@ -58,7 +58,7 @@ const HeaderPage = () => {
           "lg:text-[100px]",
           "xl:text-[150px] xl:leading-32",
           "whitespace-pre-wrap",
-          "text-foreground text-center uppercase",
+          "text-foreground text-center uppercase ",
         )}>Web/3D<br />Designer<br />developer</h1>
         <p className={cn("text-base w-full px-4 font-[Montserrat] text-foreground", "lg:text-lg lg:leading-relaxed lg:px-0 lg:mx-auto text-subtitle/80 lg:pb-2 lg:w-[700px]")}>Hey👋, I{"'"}m Selim, an enthusiastic multidisciplinary developer based on the French Riviera, specializing in the creation of digital products, SaaS, and headless e-commerce.</p>
         <div className={cn("pt-4")}>
