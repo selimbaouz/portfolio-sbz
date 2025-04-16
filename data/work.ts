@@ -320,3 +320,141 @@ export const worksBySlugData: Case[] = [
     siteUrl: 'https://metawaste.com/fr/',
   },
 ];
+
+export const legalsLinksData = [
+  {
+    slug: "/terms-of-use", title: "Terms of use",
+  },
+  {
+    slug: "/privacy-policy", title: "Privacy policy",
+  },
+  {
+    slug: "/terms-and-conditions", title: "Terms and conditions",
+  },
+  {
+    slug: "/support", title: "Support",
+  },
+];
+
+export const legalsPagesData = (handle: string) => {
+  switch (handle) {
+    case "terms-of-use":
+      return {
+        title: "Legal Notice",
+        data: [
+          {
+            title: "1. Legal Information",
+            content: `Creator of the site: Selim Baouz
+              Publisher: Selim Baouz
+              Address: 5 rue marcel sembat 83200 Toulon
+              Email: selim.baouz@hotmail.fr
+              SIRET number: 83012126500037`,
+          },
+          {
+            title: "2. Hosting",
+            content: `Host: Vercel Inc.
+              Address: 340 S Lemon Ave #4133, Walnut, CA 91789, USA
+              Website: vercel.com`,
+          },
+          {
+            title: "3. Intellectual Property",
+            content: `All content on this site (texts, images, videos, logos, etc.) is protected by intellectual property laws. Any reproduction, in whole or in part, without written permission is prohibited.`,
+          },
+          {
+            title: "4. Use of Canva and Shopify Services",
+            content: `This site uses third-party tools like Canva and Shopify to enhance the user experience. By using this site, you agree to the terms and conditions of these services in addition to ours. Please refer to Canva and Shopify's privacy policies for more details on how your data is handled.`,
+          },
+          {
+            title: "5. Cookies",
+            content: `No cookies are used to collect personal data. However, technical cookies may be generated for the operation of analytical services.`,
+          },
+          {
+            title: "6. Applicable Law",
+            content: `These legal terms are governed by French law. In case of a dispute, the competent courts will be those of Toulon.`,
+          },
+        ],
+      };
+    case "privacy-policy":
+      return {
+        title: "Privacy Policy",
+        data: [
+          {
+            title: "1. Introduction",
+            content: `I respect your privacy and am committed to protecting your personal information. This privacy policy explains how I collect, use, and protect the data you provide when using this site.`,
+          },
+          {
+            title: "2. Data Collected",
+            content: `I only collect anonymized data through Vercel Analytics to track site activity and improve performance. Third-party platforms like Canva and Shopify, used to enhance the user experience, may also collect data as part of their services. This data is used to analyze and improve the service offered.`,
+          },
+          {
+            title: "3. Purpose of Data Processing",
+            content: `The data collected is used for:
+            - Analyzing traffic and improving site content.
+            - Optimizing site performance.`,
+          },
+          {
+            title: "4. Data Sharing",
+            content: `I do not share your personal data with third parties, except for the services necessary for the operation of the site, such as Vercel, Canva, and Shopify. These services may collect and process data according to their own privacy policies.`,
+          },
+          {
+            title: "5. Your Rights",
+            content: `In accordance with the GDPR, you have the right to access, correct, or request the deletion of your data. To exercise these rights, you can contact me at the following email address: selim.baouz@hotmail.fr.`,
+          },
+          {
+            title: "6. Security",
+            content: `I implement security measures to protect your data from unauthorized access. Third-party services like Canva and Shopify also apply security measures to protect the data you provide to them.`,
+          },
+        ],
+      };
+    case "terms-and-conditions":
+      return {
+        title: "Terms and Conditions",
+        data: [
+          {
+            title: "1. Purpose",
+            content: `These terms and conditions govern the use of the services offered on this site. These conditions apply to users accessing the services offered, without direct commercial transactions on the site.`,
+          },
+          {
+            title: "2. Site Use",
+            content: `This site provides access to various information and services, without direct sales of products. By using this site, you agree not to use the site for illegal or harmful purposes.`,
+          },
+          {
+            title: "3. Access and Use Rights",
+            content: `Access to the site’s services is granted under the condition of compliance with these terms of use. If you need help or additional information, please contact us by email at selim.baouz@hotmail.fr.`,
+          },
+          {
+            title: "4. Responsibility",
+            content: `While efforts are made to ensure the availability and security of the site, I cannot be held responsible for interruptions or loss of access caused by technical errors, hosting issues, or third-party services like Canva and Shopify.`,
+          },
+          {
+            title: "5. Support",
+            content: `For any support requests or issues, please contact me directly via email at **selim.baouz@hotmail.fr**. I will be happy to assist you!`,
+          },
+          {
+            title: "6. Disputes",
+            content: `In case of a dispute, the competent court will be that of Toulon, in accordance with French law.`,
+          },
+        ],
+      };
+    case "support":
+      return {
+        title: "Support",
+        data: [
+          {
+            title: "1. How to Get Support",
+            content: `If you need any assistance or have any questions about the site or services, please do not hesitate to contact me directly at the following email address: selim.baouz@hotmail.fr. I am here to help you!`,
+          },
+        ],
+      };
+    default:
+      return {
+        title: "Page Not Found",
+        data: [
+          {
+            title: "Error 404",
+            content: "The page you requested does not exist.",
+          },
+        ],
+      };
+  }
+};
