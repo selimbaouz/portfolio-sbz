@@ -8,6 +8,7 @@ import { useIsHydrated } from "@/hook/useIsHydrated";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
+import { legalsLinksData } from "@/data/work";
 
 const Footer = () => {
   const isHydrated = useIsHydrated();
@@ -92,7 +93,7 @@ const Footer = () => {
               "lg:text-base lg:block"
             )}
             >
-            ©2023 - Selim Baouz. Tous droits réservés.
+            ©2023 - Selim Baouz. All rights reserved.
           </p>
             {[
                 {
@@ -126,6 +127,19 @@ const Footer = () => {
                   {data.title}
                 </Link>
               ))}
+        </div>
+        <div className={cn("flex flex-col gap-2 items-center", "lg:flex-row lg:gap-4 lg:justify-center")}>
+          {legalsLinksData.map((data, i) => (
+              <Link
+              key={i}
+              href={data.slug ?? ""}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline hover:text-white/30"
+            >
+                {data.title}
+              </Link>
+            ))}
         </div>
       </div>
     </Container>
