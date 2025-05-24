@@ -34,13 +34,6 @@ import ColorDuo from "../public/images/colorduo.png"
 import { Case } from "@/types/types";
 
 export const worksData = [
- /*  {
-    title: "FontDuo", 
-    category: "Canva", 
-    date: "2025", 
-    image: TailwindLiquid, 
-    slug: "tailwindliquid",
-  }, */
    {
     title: "Palette & Tints", 
     category: "Canva", 
@@ -163,18 +156,6 @@ export const worksData = [
 ];
 
 export const worksBySlugData: Case[] = [
-  /* {
-    title: "Font Duo",
-    category: "Canva",
-    date: "2025",
-    images: [TailwindLiquid],
-    slug: "fontduo",
-    company: "Selim Baouz",
-    role: "Application Developer",
-    construction: "ReactJs, Canva Sdk, Typescript",
-    content: "A simple tool to generate harmonious font pairings directly in Canva, helping users elevate their designs with curated typography duos.",
-    siteUrl: "",
-  }, */
    {
     title: "Palette & Tints",
     category: "Canva",
