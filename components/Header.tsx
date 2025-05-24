@@ -62,7 +62,7 @@ const HeaderPage = () => {
         )}>Web/3D<br />Designer<br />developer</h1>
         <p className={cn("text-base w-full px-4 font-[Montserrat] text-foreground", "lg:text-lg lg:leading-relaxed lg:px-0 lg:mx-auto text-subtitle/80 lg:pb-2 lg:w-[700px]")}>Hey👋, I{"'"}m Selim, an enthusiastic multidisciplinary developer based on the French Riviera, specializing in the creation of digital products, SaaS, and headless e-commerce.</p>
         <div className={cn("pt-4")}>
-          <Link href="mailto:selim.baouz@hotmail.fr
+          <Link href="mailto:hello@selimbaouz.com
           " target="_blank" rel="preload" className={cn(
             "font-semibold", 
             "w-[80%] h-12 mx-auto",

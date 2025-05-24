@@ -73,7 +73,7 @@ const Footer = () => {
           <div className="flex flex-col justify-center items-center text-center">
             <div>
               <Link
-                href="mailto:selim.baouz@hotmail.fr"
+                href="mailto:hello@selimbaouz.com"
                 className={cn(
                   "linkCursor font-medium cursor-pointer text-xl",
                   "md:text-3xl",
@@ -81,7 +81,7 @@ const Footer = () => {
                   "hover:underline",
                 )}
                 >
-                selim.baouz@hotmail.fr
+                hello@selimbaouz.com
               </Link>
             </div>
           </div>

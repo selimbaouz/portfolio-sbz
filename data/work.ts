@@ -388,7 +388,7 @@ export const legalsPagesData = (handle: string) => {
             content: `Creator of the site: Selim Baouz
               Publisher: Selim Baouz
               Address: 5 rue marcel sembat 83200 Toulon
-              Email: selim.baouz@hotmail.fr
+              Email: hello@selimbaouz.com
               SIRET number: 83012126500037`,
           },
           {
@@ -439,7 +439,7 @@ export const legalsPagesData = (handle: string) => {
           },
           {
             title: "5. Your Rights",
-            content: `In accordance with the GDPR, you have the right to access, correct, or request the deletion of your data. To exercise these rights, you can contact me at the following email address: selim.baouz@hotmail.fr.`,
+            content: `In accordance with the GDPR, you have the right to access, correct, or request the deletion of your data. To exercise these rights, you can contact me at the following email address: hello@selimbaouz.com.`,
           },
           {
             title: "6. Security",
@@ -461,7 +461,7 @@ export const legalsPagesData = (handle: string) => {
           },
           {
             title: "3. Access and Use Rights",
-            content: `Access to the site’s services is granted under the condition of compliance with these terms of use. If you need help or additional information, please contact us by email at selim.baouz@hotmail.fr.`,
+            content: `Access to the site’s services is granted under the condition of compliance with these terms of use. If you need help or additional information, please contact us by email at hello@selimbaouz.com.`,
           },
           {
             title: "4. Responsibility",
@@ -469,7 +469,7 @@ export const legalsPagesData = (handle: string) => {
           },
           {
             title: "5. Support",
-            content: `For any support requests or issues, please contact me directly via email at **selim.baouz@hotmail.fr**. I will be happy to assist you!`,
+            content: `For any support requests or issues, please contact me directly via email at **hello@selimbaouz.com**. I will be happy to assist you!`,
           },
           {
             title: "6. Disputes",
@@ -483,7 +483,7 @@ export const legalsPagesData = (handle: string) => {
         data: [
           {
             title: "1. How to Get Support",
-            content: `If you need any assistance or have any questions about the site or services, please do not hesitate to contact me directly at the following email address: selim.baouz@hotmail.fr. I am here to help you!`,
+            content: `If you need any assistance or have any questions about the site or services, please do not hesitate to contact me directly at the following email address: hello@selimbaouz.com. I am here to help you!`,
           },
         ],
       };
