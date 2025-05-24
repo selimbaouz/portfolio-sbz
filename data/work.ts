@@ -28,10 +28,34 @@ import HelloPurlyMobile from "../public/images/hellopurly-mobile.png";
 import HelloPurlyMockup from "../public/images/hellopurly-cover.png";
 import Notisucess from "../public/images/notisuccess.png";
 import TailwindLiquid from "../public/images/tailwindliquid.png";
+import PT1 from "../public/images/PT1.png";
+import PT2 from "../public/images/PT2.png";
+import ColorDuo from "../public/images/colorduo.png"
 import { Case } from "@/types/types";
 
 export const worksData = [
-  {
+ /*  {
+    title: "FontDuo", 
+    category: "Canva", 
+    date: "2025", 
+    image: TailwindLiquid, 
+    slug: "tailwindliquid",
+  }, */
+   {
+    title: "Palette & Tints", 
+    category: "Canva", 
+    date: "2025", 
+    image: PT1, 
+    slug: "palette-and-tints",
+  },
+   {
+    title: "ColorDuo", 
+    category: "Canva", 
+    date: "2025", 
+    image: ColorDuo, 
+    slug: "colorduo",
+  },
+   {
     title: "TailwindLiquid", 
     category: "Saas", 
     date: "2025", 
@@ -139,13 +163,49 @@ export const worksData = [
 ];
 
 export const worksBySlugData: Case[] = [
-  {
+  /* {
+    title: "Font Duo",
+    category: "Canva",
+    date: "2025",
+    images: [TailwindLiquid],
+    slug: "fontduo",
+    company: "Selim Baouz",
+    role: "Application Developer",
+    construction: "ReactJs, Canva Sdk, Typescript",
+    content: "A simple tool to generate harmonious font pairings directly in Canva, helping users elevate their designs with curated typography duos.",
+    siteUrl: "",
+  }, */
+   {
+    title: "Palette & Tints",
+    category: "Canva",
+    date: "2025",
+    images: [PT1, PT2],
+    slug: "palette-and-tints",
+    company: "Selim Baouz",
+    role: "Application Developer",
+    construction: "ReactJs, Canva Sdk, Typescript",
+    content: "Allows users to generate and apply balanced color palettes and subtle tints to their designs, enhancing visual consistency in one click.",
+    siteUrl: "",
+  },
+   {
+    title: "Color Duo",
+    category: "Canva",
+    date: "2025",
+    images: [ColorDuo],
+    slug: "colorduo",
+    company: "Selim Baouz",
+    role: "Application Developer",
+    construction: "ReactJs, Canva Sdk, Typescript",
+    content: "Helps designers choose complementary color pairs tailored to their project, promoting aesthetic harmony and brand coherence within Canva.",
+    siteUrl: "",
+  },
+   {
     title: "TailwindLiquid",
     category: "SaaS",
     date: "2025",
     images: [TailwindLiquid],
     slug: "tailwindliquid",
-    company: "Sejiux",
+    company: "Selim Baouz",
     role: "Founder",
     construction: "Shopify, NextJs, Tailwindcss, Prisma",
     content: "An accessible alternative to premium themes and paid apps on Shopify, enabling merchants to easily professionalize their stores with a simple copy-paste.",
@@ -157,7 +217,7 @@ export const worksBySlugData: Case[] = [
     date: "2025",
     images: [Bagisty],
     slug: "bagisty",
-    company: "Sejiux",
+    company: "Selim Baouz",
     role: "UX/UI Designer",
     construction: "Figma",
     content: "Bagisty is an e-commerce store specializing in leather goods with a minimalist aesthetic and optimized user experience.",
@@ -169,7 +229,7 @@ export const worksBySlugData: Case[] = [
     date: "2025",
     images: [Luxurm],
     slug: "luxurm",
-    company: "Sejiux",
+    company: "Selim Baouz",
     role: "UX/UI Designer",
     construction: "Figma",
     content: "Luxurm is an online store dedicated to high-end perfumes, showcasing the essence of olfactory luxury through an immersive experience.",
@@ -181,7 +241,7 @@ export const worksBySlugData: Case[] = [
     date: "2025",
     images: [Wemom],
     slug: "wewom",
-    company: "Sejiux",
+    company: "Selim Baouz",
     role: "UX/UI Designer",
     construction: "Figma",
     content: "Wewom is a store dedicated to the safety of expectant mothers, featuring an essential product: a belt that effectively protects both mother and baby.",
@@ -193,7 +253,7 @@ export const worksBySlugData: Case[] = [
     date: "2024",
     images: [HelloPurlyMockup, HelloPurly],
     slug: "hellopurly",
-    company: "Sejiux",
+    company: "Selim Baouz",
     role: "UX/UI Design and Development",
     construction: "Figma, Shopify Headless, Next.js, React, Tailwindcss",
     content: "HelloPurly is a headless Shopify store dedicated to modern bidets, designed to transform daily hygiene while minimizing ecological impact. Fully developed, from design to integration, it combines innovation and sustainability.",
@@ -205,7 +265,7 @@ export const worksBySlugData: Case[] = [
     date: "2024",
     images: [Notisucess],
     slug: "notisuccess",
-    company: "Sejiux",
+    company: "Selim Baouz",
     role: "Front-End Developer",
     construction: "Next.js, React, Tailwindcss",
     content: "Notisuccess is a generator for fake Stripe payment notifications.",
@@ -217,7 +277,7 @@ export const worksBySlugData: Case[] = [
     date: "2024",
     images: [Sejiux],
     slug: "sejiux",
-    company: "Sejiux",
+    company: "Selim Baouz",
     role: "Founder",
     construction: "Next.js, React, Shopify Headless",
     content: "Sejiux is my studio dedicated to creating headless e-commerce stores on Shopify.",
@@ -229,7 +289,7 @@ export const worksBySlugData: Case[] = [
     date: "2023",
     images: [Themify1, Themify2],
     slug: "themify",
-    company: "Sejiux",
+    company: "Selim Baouz",
     role: "UX/UI Designer and FullStack Developer",
     construction: "Figma, NextJs, ReactJs, Tailwindcss, Strapi, Snipcart",
     content: "I created Themify to practice designing a fully custom e-commerce site, developed with Next.js for the front-end and Strapi for the back-end, integrating Snipcart for secure cart management.",
@@ -241,7 +301,7 @@ export const worksBySlugData: Case[] = [
     date: "2023",
     images: [Maely],
     slug: "maely",
-    company: "Sejiux - Shopify Partner",
+    company: "Selim Baouz",
     role: "Shopify Theme Creator",
     construction: "Liquid, Figma, Shopify",
     content: "Maely, Bright, and BeautyCare are three custom Shopify themes I created to learn UX/UI design and master Liquid code. \nPassword: sejiux.",
@@ -253,7 +313,7 @@ export const worksBySlugData: Case[] = [
     date: "2023",
     images: [Beautycare],
     slug: "beautycare",
-    company: "Sejiux - Shopify Partner",
+    company: "Selim Baouz",
     role: "Shopify Theme Creator",
     construction: "Liquid, Figma, Shopify",
     content: "Maely, Bright, and BeautyCare are three custom Shopify themes I created to learn UX/UI design and master Liquid code. \nPassword: sejiux.",
@@ -265,7 +325,7 @@ export const worksBySlugData: Case[] = [
     date: "2023",
     images: [Bright],
     slug: "bright",
-    company: "Sejiux - Shopify Partner",
+    company: "Selim Baouz",
     role: "Shopify Theme Creator",
     construction: "Liquid, Figma, Shopify",
     content: "Maely, Bright, and BeautyCare are three custom Shopify themes I created to learn UX/UI design and master Liquid code. \nPassword: sejiux.",
